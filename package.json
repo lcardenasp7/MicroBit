@@ -1,0 +1,16 @@
+{
+  "name": "guia-microbit",
+  "version": "1.0.0",
+  "description": "Guía completa de proyectos con Micro:bit para estudiantes",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p $PORT",
+    "dev": "npx http-server -p 8080"
+  },
+  "keywords": ["microbit", "educacion", "programacion", "proyectos"],
+  "author": "Luis Cárdenas",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
